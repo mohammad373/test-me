@@ -4,6 +4,13 @@ import mac_changer
 import os
 import sys
 import time
+try:
+  from colorama import Fore
+except:
+  time.sleep(1)
+  print("[-] Pleass Install The Librery --> colorama")
+  sys.exit()
+
 from baner import baner
 os.system("clear")
 baner()
@@ -24,3 +31,4 @@ if number == 3:
 else:
     print(Fore.RED + "\n[-] Your Number Not Found !!!")
     sys.exit()
+
