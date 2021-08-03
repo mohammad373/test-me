@@ -6,7 +6,7 @@ import time
 from baner import baner
 os.system("clear")
 baner()
-time.sleep(0.6
+time.sleep(0.6)
 print(Fore.LIGHTBLACK_EX + "\n[1] ~ ARP Spoofer")
 time.sleep(0.3)
 print(Fore.LIGHTBLACK_EX + "[2] ~ Bloack Target For Internet")
